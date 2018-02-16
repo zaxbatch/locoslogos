@@ -1,0 +1,161 @@
+body {
+  font-family: Helvetica;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../fonts/AgentOrange.ttf');
+}
+
+
+div {
+
+}
+
+h2 {
+ color: yellow;
+}
+
+.nav-style {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  min-height: 60px;
+  width: 100%;
+  background-color: white;
+  z-index: 500;
+}
+
+.logo {
+
+  height: 100px;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+.menu {
+  background-image: url(menu.png);
+  position: absolute;
+  right: 15px;
+  margin-top: 15px;
+  width: 50px;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-content {
+    display: none;
+    letter-spacing: .5em;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-right: 15px;
+  }
+
+#about {
+  font-family: ' ';
+  background-color: ;
+  text-align: center;
+}
+
+#about img {
+  max-width: 80%;
+}
+
+.about-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 200px;
+  font-family: myFirstFont;
+  font-size: 2rem;
+  color: green;
+  background-color: ;
+
+}
+
+
+.staff {
+  width: 300px;
+}
+
+.gallery {
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.section p {
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.section h2 {
+  color: brown;
+}
+
+
+.section img {
+  max-width: 80%;
+}
+
+
+#services {
+  background-color: ;
+  text-align: center;
+}
+
+.space {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+#portfolio {
+  background-color: ;
+  text-align: center;
+}
+
+#portfolio img {
+  max-width: 80%;
+}
+
+#contact {
+  background: linear-gradient(to bottom, #ffffff, #fcff5e, #0d7205);
+
+  text-align: center;
+  align-self: center;
+}
+
+.social {
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+.social img {
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.number {
+  font-family: fantasy;
+  white-space: pre-line;
+  cursor: pointer;
+  margin-top: 10px;
+  color: red;
+}

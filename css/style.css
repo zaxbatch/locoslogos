@@ -1,0 +1,212 @@
+body {
+  font-family: Helvetica;
+  display: block;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../fonts/AgentOrange.ttf');
+}
+
+
+div {
+
+}
+
+h2 {
+ color: yellow;
+}
+
+.nav-style {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  min-height: 60px;
+  width: 100%;
+  background-color: white;
+  z-index: 500;
+  border-bottom: 2px solid #27AC06;
+  border-radius: 5px;
+}
+
+.nav-style a {
+  color: #27AC06;
+  font-size: 1.2em;
+}
+
+.nav-style a:hover {
+  color: #A25105;
+}
+
+.nav-style a:active {
+  color: yellow;
+}
+
+.logo {
+
+  height: 100px;
+  margin-left: 4px;
+  margin-top: ;
+}
+
+.menu {
+  background-image: url(menu.png);
+  position: absolute;
+  right: 15px;
+  margin-top: 15px;
+  width: 50px;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-content {
+    display: none;
+    text-align: justify;
+    letter-spacing: .3em;
+    font-weight: bold;
+    z-index: 1;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-right: 15px;
+    color: #27AC06;
+  }
+
+#about {
+  font-family: ' ';
+  background-color: ;
+  text-align: center;
+}
+#about img {
+  max-width: 80%;
+}
+
+
+
+.about-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 200px;
+
+  background-color: rgba(37, 188, 0, 0.55);
+  border-bottom: 2px solid green;
+  border-radius: 5px;
+
+}
+
+.topic {
+  font-family: myFirstFont;
+  font-size: 1.2rem;
+  color: green;
+
+}
+
+.staff-pics {
+  ;
+}
+
+
+
+
+.section p {
+  margin-top: 20px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.section h2 {
+  color: brown;
+}
+
+
+.section img {
+  max-width: 80%;
+}
+
+
+#services {
+
+  background-color: ;
+  text-align: center;
+}
+
+.services-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 200px;
+  background: linear-gradient(to bottom, white, rgba(37, 188, 0, 0.55));
+  border-bottom: 2px solid green;
+  border-radius: 5px;
+
+}
+
+.space {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+#portfolio {
+  background-color: ;
+  text-align: center;
+}
+
+#portfolio img {
+  max-width: 80%;
+}
+
+.portfolio-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 200px;
+  background: linear-gradient(to bottom, white, rgba(37, 188, 0, 0.55));
+  border-bottom: 2px solid green;
+  border-radius: 5px;
+
+}
+
+#contact {
+  background: linear-gradient(to bottom, #ffffff, #fcff5e, #0d7205);
+  text-align: center;
+  align-self: center;
+}
+
+.social {
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+.social img {
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.number {
+  font-family: myFirstFont;
+  white-space: pre-line;
+  cursor: crosshair;
+  margin-top: 10px;
+  color: red;
+}
+
+.staff-pics {
+  display: flex;
+  flex-direction: column;
+}
