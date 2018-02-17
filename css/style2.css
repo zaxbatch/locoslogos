@@ -60,6 +60,7 @@ h2 {
 
 .dropdown {
     display: flex;
+    flex-direction: ;
 }
 
 .dropdown-content {
@@ -78,7 +79,8 @@ h2 {
     margin-top: 70px;
     margin-right: 15px;
     color: #27AC06;
-  }
+}
+s
 
 #about {
   font-family: ' ';
