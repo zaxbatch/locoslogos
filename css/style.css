@@ -261,11 +261,32 @@ h2 {
 .flexbox {
   display: flex;
   flex-direction: row;
-  margin-right: 4px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.topic{
+.topic {
+  font-size: 2rem;
+}
 
+.section-content {
+  order: 1;
+}
+
+.section2-content {
+  order: 2;
+}
+
+.section-pic {
+  width: 80%;
+  order: 2;
+}
+
+.section2-pic {
+  width: 80%;
+  order: 1;
 }
 
 }
