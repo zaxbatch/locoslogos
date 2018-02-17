@@ -232,7 +232,7 @@ s
 
 .dropdown .dropdown-content {
       display: flex;
-      flex-direction: row-reverse;
+      flex-direction: row;
       margin-top: 4px;
       margin-right: auto;
       color: #27AC06;
@@ -242,7 +242,7 @@ s
 
 .dropdown:hover .dropdown-content {
       display: flex;
-      flex-direction: row-reverse;
+      flex-direction: row;
       margin-top: 4px;
       margin-right: auto;
       color: #27AC06;
